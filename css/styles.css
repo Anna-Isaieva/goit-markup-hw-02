@@ -52,12 +52,15 @@ ol {
   color: #404bbf;
 }
 
+.address {
+  font-style: normal
+}
+
 .address a{
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
 .address a:hover,
@@ -74,6 +77,7 @@ background-color: #2E2F42;
 }
 
 .title-hero {
+  font-weight: 700;
   color: #FFFFFF;
   font-size: 56px;
   line-height: 1.07143;
@@ -100,6 +104,10 @@ background-color: #2E2F42;
 
 /* #region Section Features */
 
+.features h2 {
+  font-weight: 700;
+}
+
 .features h3 {
   color: #2E2F42;
   font-weight: 500;
@@ -123,6 +131,7 @@ background-color: #2E2F42;
 }
 
 .team h2 {
+  font-weight: 700;
   color: #2E2F42;
   font-size: 36px;
   line-height: 1.11111;
@@ -155,6 +164,7 @@ background-color: #2E2F42;
 /* #region Portfolio */
 
 .portfolio h2 {
+  font-weight: 700;
   color: #2E2F42;
   font-size: 36px;
   line-height: 1.11111;
