@@ -16,6 +16,7 @@ ol {
 }
 
 /* #endregion */
+
 /* #region Header */
 
 .logo-header {
@@ -46,7 +47,8 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.navigation a:hover{
+.navigation a:hover,
+.navigation a:focus {
   color: #404bbf;
 }
 
@@ -55,6 +57,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .address a:hover,
@@ -63,9 +66,10 @@ ol {
 }
 
 /* #endregion */
+
 /* #region Section Hero */
 
-.hero{
+.hero {
 background-color: #2E2F42;
 }
 
@@ -87,11 +91,13 @@ background-color: #2E2F42;
   cursor: pointer;
 }
 
-.button-hero:hover {
+.button-hero:hover,
+.button-hero:focus {
   background-color: #404BBF;
 }
 
 /* #endregion */
+
 /* #region Section Features */
 
 .features h3 {
@@ -109,6 +115,7 @@ background-color: #2E2F42;
 }
 
 /* #endregion */
+
 /* #region Section Team */
 
 .team {
@@ -144,6 +151,7 @@ background-color: #2E2F42;
 }
 
 /* #endregion */
+
 /* #region Portfolio */
 
 .portfolio h2 {
@@ -169,6 +177,7 @@ background-color: #2E2F42;
 }
 
 /* #endregion */
+
 /* #region Footer */
 
 .footer {
